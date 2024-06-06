@@ -1,0 +1,139 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background: url('images/bg.jpg');
+
+    background-size: 100%;
+    color: aliceblue;
+}
+
+.left {
+    /* border: 2px solid rgb(39, 73, 175); */
+    display: inline-block;
+
+    position: absolute;
+    top: 25px;
+    left: 1%;
+}
+
+.right {
+    /* border: 2px solid rgb(19, 170, 74); */
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 1%;
+}
+
+.mid {
+    border: 2px solid rgb(144 144 144 / 35%);
+    background-color: rgb(20 19 19 / 41%);
+    border-radius: 15px;
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+}
+
+.navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 19px;
+}
+
+.navbar li a:active {
+    color: gray;
+    font-style: bold;
+}
+
+.navbar li a:hover {
+    color: gray;
+    font-style: italic;
+}
+
+.left img {
+    width: 81px;
+    border-radius: 35px;
+    position: relative;
+    left: 10px;
+}
+
+.leftdiv {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 10px 26px;
+    padding: 13px 44px;
+    background-color: rgb(94 94 94 / 58%);
+    color: rgb(251 251 251);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(42, 39, 39);
+    font-style: italic;
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 103px 791px;
+    padding: 31px 14px;
+    border-radius: 31px;
+    width: 42%;
+
+
+}
+
+.formgroup input {
+    display: block;
+    margin: 6px 1px;
+    padding: 4px 9px;
+    font-family: 'Balsamiq Sans', cursive;
+    border-radius: 15px;
+    
+}
+
+.formgroup {
+    margin: 1px 178px;
+    padding: 1px 1px;
+}
+
+#btn1 {
+    position: absolute;
+    right: 330px;
+    border-radius: 15px;
+     background-color: rgb(65 64 64 / 86%);
+     
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 10px 26px;
+    padding: 13px 44px;
+    
+    color: rgb(251 251 251);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: rgb(42, 39, 39);
+    font-style: italic;
+}
+
+pre {
+    padding: 2px 14px;
+    margin: -13px 19px;
+    border: 2px solid #8b8780ad;
+    background-color: #8b8780ad;
+    color: rgb(251 251 251);
+    border-radius: 15px;
+    position: relative
+}
+.formgroup input:hover{
+    background-color: rgb(174 170 170);
+    font-style: italic;
+}
